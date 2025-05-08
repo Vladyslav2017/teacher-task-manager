@@ -1,0 +1,52 @@
+!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teacher Task Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Teacher Task Manager</h1>
+
+  <!-- Форма реєстрації -->
+  <section>
+    <h2>Реєстрація</h2>
+    <form id="register-form">
+      <input type="text" placeholder="Ім'я користувача" name="username" required />
+      <input type="email" placeholder="Email" name="email" required />
+      <input type="password" placeholder="Пароль" name="password" required />
+      <button type="submit">Зареєструватися</button>
+    </form>
+  </section>
+
+  <!-- Форма входу -->
+  <section>
+    <h2>Вхід</h2>
+    <form id="login-form">
+      <input type="email" placeholder="Email" name="email" required />
+      <input type="password" placeholder="Пароль" name="password" required />
+      <button type="submit">Увійти</button>
+    </form>
+  </section>
+
+  <!-- Форма задач -->
+  <section>
+    <h2>Створити задачу</h2>
+    <form id="task-form">
+      <input type="text" placeholder="Назва задачі" name="title" required />
+      <textarea placeholder="Опис задачі" name="description"></textarea>
+      <button type="submit">Додати задачу</button>
+    </form>
+  </section>
+
+  <!-- Контейнер задач -->
+  <section>
+    <h2>Ваші задачі</h2>
+    <ul id="task-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

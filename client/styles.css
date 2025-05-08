@@ -1,0 +1,77 @@
+/* client/styles.css */
+
+/* Основні стилі для всього документу */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Контейнер для всього контенту */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовки */
+  h2 {
+    text-align: center;
+    color: #444;
+  }
+  
+  /* Форми */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Кнопки */
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Список задач */
+  ul#task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul#task-list li {
+    background: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #28a745;
+    border-radius: 4px;
+  }
+  
